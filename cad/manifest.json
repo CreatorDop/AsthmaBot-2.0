@@ -1,0 +1,262 @@
+[
+  {
+    "part": "AB20_01_base",
+    "valid": true,
+    "volume_mm3": 79935.83,
+    "bounds_mm": [
+      135.0,
+      80.0,
+      41.5
+    ],
+    "xyz": [
+      0,
+      0,
+      0
+    ],
+    "color": [
+      0.1,
+      0.75,
+      0.8
+    ]
+  },
+  {
+    "part": "AB20_02_lid",
+    "valid": true,
+    "volume_mm3": 23078.519,
+    "bounds_mm": [
+      124.0,
+      80.0,
+      6.5
+    ],
+    "xyz": [
+      0,
+      0,
+      41.5
+    ],
+    "color": [
+      0.76,
+      0.87,
+      0.91
+    ]
+  },
+  {
+    "part": "AB20_03_module_carrier",
+    "valid": true,
+    "volume_mm3": 9611.316,
+    "bounds_mm": [
+      13.0,
+      38.0,
+      40.0
+    ],
+    "xyz": [
+      124,
+      18.4,
+      2
+    ],
+    "color": [
+      0.65,
+      0.39,
+      0.95
+    ]
+  },
+  {
+    "part": "AB20_04_peak_inlet",
+    "valid": true,
+    "volume_mm3": 25662.818,
+    "bounds_mm": [
+      60.0,
+      60.0,
+      40.0
+    ],
+    "xyz": [
+      172,
+      40,
+      0
+    ],
+    "color": [
+      0.08,
+      0.69,
+      0.75
+    ]
+  },
+  {
+    "part": "AB20_05_peak_outlet",
+    "valid": true,
+    "volume_mm3": 25662.818,
+    "bounds_mm": [
+      60.0,
+      60.0,
+      40.0
+    ],
+    "xyz": [
+      172,
+      40,
+      40
+    ],
+    "color": [
+      0.08,
+      0.69,
+      0.75
+    ]
+  },
+  {
+    "part": "AB20_06_diaphragm_D32",
+    "valid": true,
+    "volume_mm3": 1432.566,
+    "bounds_mm": [
+      44.0,
+      44.0,
+      2.0
+    ],
+    "xyz": [
+      172,
+      40,
+      39
+    ],
+    "color": [
+      0.96,
+      0.66,
+      0.13
+    ]
+  },
+  {
+    "part": "AB20_07_airflow_basic",
+    "valid": true,
+    "volume_mm3": 44233.625,
+    "bounds_mm": [
+      48.0,
+      48.0,
+      80.0
+    ],
+    "xyz": [
+      235,
+      40,
+      0
+    ],
+    "color": [
+      0.25,
+      0.81,
+      0.67
+    ]
+  },
+  {
+    "part": "AB20_08_mouthpiece",
+    "valid": true,
+    "volume_mm3": 6431.403,
+    "bounds_mm": [
+      51.0,
+      51.0,
+      18.0
+    ],
+    "xyz": [
+      172,
+      40,
+      0
+    ],
+    "color": [
+      0.75,
+      0.9,
+      0.95
+    ]
+  },
+  {
+    "part": "AB20_09_channel_clamp",
+    "valid": true,
+    "volume_mm3": 3902.724,
+    "bounds_mm": [
+      62.0,
+      53.833,
+      8.0
+    ],
+    "xyz": [
+      172,
+      40,
+      17
+    ],
+    "color": [
+      0.65,
+      0.39,
+      0.95
+    ]
+  },
+  {
+    "part": "AB20_10_nasal_pod",
+    "valid": true,
+    "volume_mm3": 5339.665,
+    "bounds_mm": [
+      34.0,
+      22.0,
+      32.0
+    ],
+    "xyz": [
+      220,
+      85,
+      0
+    ],
+    "color": [
+      0.65,
+      0.39,
+      0.95
+    ]
+  },
+  {
+    "part": "AB20_11_nasal_lid",
+    "valid": true,
+    "volume_mm3": 1419.031,
+    "bounds_mm": [
+      34.0,
+      22.0,
+      2.0
+    ],
+    "xyz": [
+      220,
+      85,
+      14
+    ],
+    "color": [
+      0.76,
+      0.87,
+      0.91
+    ]
+  },
+  {
+    "part": "AB20_12_button",
+    "valid": true,
+    "volume_mm3": 191.637,
+    "bounds_mm": [
+      8.0,
+      8.0,
+      6.0
+    ],
+    "xyz": [
+      55,
+      23,
+      39
+    ],
+    "color": [
+      0.96,
+      0.66,
+      0.13
+    ]
+  },
+  {
+    "part": "AB20_13_retaining_strip",
+    "valid": true,
+    "volume_mm3": 403.683,
+    "bounds_mm": [
+      55.0,
+      4.0,
+      2.0
+    ],
+    "xyz": [
+      7,
+      7,
+      9
+    ],
+    "color": [
+      0.76,
+      0.87,
+      0.91
+    ]
+  }
+]
