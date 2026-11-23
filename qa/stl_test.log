@@ -1,0 +1,13 @@
+PASS watertight manifold STL: AB20_01_base.stl triangles 4052
+PASS watertight manifold STL: AB20_02_lid.stl triangles 3800
+PASS watertight manifold STL: AB20_03_module_carrier.stl triangles 376
+PASS watertight manifold STL: AB20_04_peak_inlet.stl triangles 3128
+PASS watertight manifold STL: AB20_05_peak_outlet.stl triangles 3128
+PASS watertight manifold STL: AB20_06_diaphragm_D32.stl triangles 672
+PASS watertight manifold STL: AB20_07_airflow_basic.stl triangles 672
+PASS watertight manifold STL: AB20_08_mouthpiece.stl triangles 1008
+PASS watertight manifold STL: AB20_09_channel_clamp.stl triangles 1378
+PASS watertight manifold STL: AB20_10_nasal_pod.stl triangles 380
+PASS watertight manifold STL: AB20_11_nasal_lid.stl triangles 352
+PASS watertight manifold STL: AB20_12_button.stl triangles 668
+PASS watertight manifold STL: AB20_13_retaining_strip.stl triangles 692

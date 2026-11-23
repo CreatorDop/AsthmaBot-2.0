@@ -1,0 +1,19 @@
+PASS STEP/STL source + DXF: AB20_01_base
+PASS STEP/STL source + DXF: AB20_02_lid
+PASS STEP/STL source + DXF: AB20_03_module_carrier
+PASS STEP/STL source + DXF: AB20_04_peak_inlet
+PASS STEP/STL source + DXF: AB20_05_peak_outlet
+PASS STEP/STL source + DXF: AB20_06_diaphragm_D32
+PASS STEP/STL source + DXF: AB20_07_airflow_basic
+PASS STEP/STL source + DXF: AB20_08_mouthpiece
+PASS STEP/STL source + DXF: AB20_09_channel_clamp
+PASS STEP/STL source + DXF: AB20_10_nasal_pod
+PASS STEP/STL source + DXF: AB20_11_nasal_lid
+PASS STEP/STL source + DXF: AB20_12_button
+PASS STEP/STL source + DXF: AB20_13_retaining_strip
+PASS body clearance: ESP
+PASS body clearance: SDP
+PASS body clearance: OLED
+PASS body clearance: BOOST
+PASS body clearance: CHARGER
+CAD checks passed. Print tolerances, assembly fasteners, tubes and actual SKUs NOT physically verified.

@@ -1,0 +1,5 @@
+
+> asthmabot2-lab@2.0.0 test
+> node tests/web_test.mjs
+
+PASS: persistence, baseline isolation, source filters, malformed records, duplicate suppression, CSV, XSS, diary profiles, mobile overflow; BLE hardware NOT tested.
