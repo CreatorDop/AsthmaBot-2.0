@@ -1,0 +1,15 @@
+{
+  "units": "mm",
+  "stage": "unbuilt engineering concept",
+  "solids_valid": true,
+  "cad_parts": [
+    "IL01_console_base",
+    "IL02_console_lid",
+    "IL03_flow_left",
+    "IL04_flow_right",
+    "IL05_orifice_D12",
+    "IL06_trigger_shell"
+  ],
+  "drawing_sheets": 5,
+  "dxf_audit": "5 files; no structural errors"
+}

@@ -1,0 +1,10 @@
+import {chromium} from '/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs';
+import fs from 'node:fs/promises';
+const R='/workspace/scratch/cab8eaba5635/inhale_lab';const browser=await chromium.launch({headless:true,args:['--no-sandbox']});const page=await browser.newPage({viewport:{width:1440,height:1050}});let errors=[];page.on('pageerror',e=>errors.push(String(e)));
+await page.goto('file://'+R+'/software/demo.html');
+const checks=await page.evaluate(()=>({zero:demoTest.flow(0)===0,end:demoTest.flow(6)===0,positive:demoTest.flow(2)>0,early:demoTest.verdict(.5),late:demoTest.verdict(2.8),aligned:demoTest.verdict(1.2),missing:demoTest.verdict(null)}));
+await page.selectOption('#scenario','early');await page.click('#start');await page.waitForFunction(()=>document.getElementById('status').textContent.includes('перед початком'),{timeout:10000});
+await page.screenshot({path:R+'/qa/demo_desktop.png',fullPage:true});const dlPromise=page.waitForEvent('download');await page.click('#download');const dl=await dlPromise;await dl.saveAs(R+'/qa/demo_export.csv');const csv=await fs.readFile(R+'/qa/demo_export.csv','utf8');if(!csv.includes('SYNTHETIC_DEMO_ONLY')||csv.split('\n').filter(x=>x.endsWith(';1')).length!==1)throw Error('CSV invalid');
+await page.click('#reset');await page.selectOption('#scenario','manual');await page.click('#start');await page.click('#press');await page.waitForFunction(()=>!document.getElementById('download').disabled,{timeout:10000});
+await page.setViewportSize({width:390,height:844});await page.screenshot({path:R+'/qa/demo_mobile.png',fullPage:true});const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+if(errors.length||overflow)throw Error(JSON.stringify({errors,overflow}));await fs.writeFile(R+'/qa/demo_checks.json',JSON.stringify({checks,errors,mobileOverflow:overflow,csvRows:csv.split('\n').length,completedScenarios:['early','manual']},null,2));await browser.close();console.log('Demo checks passed');
