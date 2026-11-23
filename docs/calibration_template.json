@@ -1,0 +1,26 @@
+{
+  "cmd": "calibrate",
+  "id": "REPLACE_WITH_CHANNEL_ID",
+  "points": [
+    [
+      0,
+      0
+    ],
+    [
+      null,
+      60
+    ],
+    [
+      null,
+      300
+    ],
+    [
+      null,
+      600
+    ],
+    [
+      null,
+      900
+    ]
+  ]
+}
