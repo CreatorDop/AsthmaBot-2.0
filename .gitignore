@@ -1,0 +1,37 @@
+# Build caches / local tools
+.pio/
+__pycache__/
+*.pyc
+node_modules
+.venv/
+venv/
+.DS_Store
+.vscode/
+*.kicad_prl
+*-backups/
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+wifi_credentials.*
+# Regenerable video intermediates
+qa/video_frames/
+qa/video_composed/
+qa/*_render.log
+qa/render.log
+qa/esp32_dims.pdf
+qa/test_export.csv
+# Distribution archives are produced outside the repository
+*.zip
+*.bundle
+*.blend1
+
+# Internal visual QA (deliverables live in assets/)
+qa/*.png
+qa/*.layout.json
+
+qa/core_test
+qa/dependencies.log
