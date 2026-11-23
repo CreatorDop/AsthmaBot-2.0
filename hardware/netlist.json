@@ -1,0 +1,933 @@
+[
+  {
+    "ref": "U1",
+    "value": "ESP32-DevKitC V4 / WROOM-32E",
+    "x": 80,
+    "y": 100,
+    "pins": [
+      [
+        "J2.1",
+        "3V3",
+        "3V3"
+      ],
+      [
+        "J2.2",
+        "EN",
+        null
+      ],
+      [
+        "J2.3",
+        "VP",
+        "BAT_ADC"
+      ],
+      [
+        "J2.4",
+        "VN",
+        "MODULE_ID"
+      ],
+      [
+        "J2.5",
+        "IO34",
+        "NASAL_ADC"
+      ],
+      [
+        "J2.6",
+        "IO35",
+        null
+      ],
+      [
+        "J2.7",
+        "IO32",
+        "BTN_NEXT"
+      ],
+      [
+        "J2.8",
+        "IO33",
+        "BTN_OK"
+      ],
+      [
+        "J2.9",
+        "IO25",
+        "BTN_BACK"
+      ],
+      [
+        "J2.10",
+        "IO26",
+        "LED_OK_CTRL"
+      ],
+      [
+        "J2.11",
+        "IO27",
+        "LED_ERR_CTRL"
+      ],
+      [
+        "J2.12",
+        "IO14",
+        null
+      ],
+      [
+        "J2.13",
+        "IO12",
+        null
+      ],
+      [
+        "J2.14",
+        "GND",
+        "GND"
+      ],
+      [
+        "J2.15",
+        "IO13",
+        "BUZZ_CTRL"
+      ],
+      [
+        "J2.16",
+        "D2",
+        null
+      ],
+      [
+        "J2.17",
+        "D3",
+        null
+      ],
+      [
+        "J2.18",
+        "CMD",
+        null
+      ],
+      [
+        "J2.19",
+        "5V",
+        "DEV_5V"
+      ],
+      [
+        "J3.1",
+        "GND",
+        "GND"
+      ],
+      [
+        "J3.2",
+        "IO23",
+        "NASAL_EXCITE"
+      ],
+      [
+        "J3.3",
+        "IO22",
+        "SENSOR_SCL"
+      ],
+      [
+        "J3.4",
+        "TX",
+        null
+      ],
+      [
+        "J3.5",
+        "RX",
+        null
+      ],
+      [
+        "J3.6",
+        "IO21",
+        "SENSOR_SDA"
+      ],
+      [
+        "J3.7",
+        "GND",
+        "GND"
+      ],
+      [
+        "J3.8",
+        "IO19",
+        "OLED_SCL"
+      ],
+      [
+        "J3.9",
+        "IO18",
+        "OLED_SDA"
+      ],
+      [
+        "J3.10",
+        "IO5",
+        null
+      ],
+      [
+        "J3.11",
+        "IO17",
+        null
+      ],
+      [
+        "J3.12",
+        "IO16",
+        null
+      ],
+      [
+        "J3.13",
+        "IO4",
+        null
+      ],
+      [
+        "J3.14",
+        "IO0",
+        null
+      ],
+      [
+        "J3.15",
+        "IO2",
+        null
+      ],
+      [
+        "J3.16",
+        "IO15",
+        null
+      ],
+      [
+        "J3.17",
+        "D1",
+        null
+      ],
+      [
+        "J3.18",
+        "D0",
+        null
+      ],
+      [
+        "J3.19",
+        "CLK",
+        null
+      ]
+    ]
+  },
+  {
+    "ref": "U2",
+    "value": "SDP810-500Pa / 0x25",
+    "x": 215,
+    "y": 40,
+    "pins": [
+      [
+        "1",
+        "SCL",
+        "SENSOR_SCL"
+      ],
+      [
+        "2",
+        "VDD",
+        "3V3"
+      ],
+      [
+        "3",
+        "GND",
+        "GND"
+      ],
+      [
+        "4",
+        "SDA",
+        "SENSOR_SDA"
+      ]
+    ]
+  },
+  {
+    "ref": "U3",
+    "value": "SBC-OLED01 SSD1306 / 0x3C",
+    "x": 350,
+    "y": 40,
+    "pins": [
+      [
+        "GND",
+        "GND",
+        "GND"
+      ],
+      [
+        "VCC",
+        "VCC",
+        "3V3"
+      ],
+      [
+        "SCL",
+        "SCL",
+        "OLED_SCL"
+      ],
+      [
+        "SDA",
+        "SDA",
+        "OLED_SDA"
+      ]
+    ]
+  },
+  {
+    "ref": "R1",
+    "value": "4.7k 1%",
+    "x": 200,
+    "y": 82,
+    "pins": [
+      [
+        "1",
+        "1",
+        "3V3"
+      ],
+      [
+        "2",
+        "2",
+        "SENSOR_SCL"
+      ]
+    ]
+  },
+  {
+    "ref": "R2",
+    "value": "4.7k 1%",
+    "x": 200,
+    "y": 112,
+    "pins": [
+      [
+        "1",
+        "1",
+        "3V3"
+      ],
+      [
+        "2",
+        "2",
+        "SENSOR_SDA"
+      ]
+    ]
+  },
+  {
+    "ref": "C1",
+    "value": "100nF X7R",
+    "x": 200,
+    "y": 142,
+    "pins": [
+      [
+        "1",
+        "1",
+        "3V3"
+      ],
+      [
+        "2",
+        "2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "R3",
+    "value": "100k 1%",
+    "x": 335,
+    "y": 82,
+    "pins": [
+      [
+        "1",
+        "1",
+        "BOOST_IN"
+      ],
+      [
+        "2",
+        "2",
+        "BAT_ADC"
+      ]
+    ]
+  },
+  {
+    "ref": "R4",
+    "value": "100k 1%",
+    "x": 335,
+    "y": 112,
+    "pins": [
+      [
+        "1",
+        "1",
+        "BAT_ADC"
+      ],
+      [
+        "2",
+        "2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "C2",
+    "value": "100nF X7R",
+    "x": 335,
+    "y": 142,
+    "pins": [
+      [
+        "1",
+        "1",
+        "BAT_ADC"
+      ],
+      [
+        "2",
+        "2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "R5",
+    "value": "10k 1%",
+    "x": 470,
+    "y": 40,
+    "pins": [
+      [
+        "1",
+        "1",
+        "3V3"
+      ],
+      [
+        "2",
+        "2",
+        "MODULE_ID"
+      ]
+    ]
+  },
+  {
+    "ref": "R6",
+    "value": "100k 1%",
+    "x": 470,
+    "y": 70,
+    "pins": [
+      [
+        "1",
+        "1",
+        "NASAL_EXCITE"
+      ],
+      [
+        "2",
+        "2",
+        "NASAL_ADC"
+      ]
+    ]
+  },
+  {
+    "ref": "C5",
+    "value": "10nF X7R",
+    "x": 335,
+    "y": 185,
+    "pins": [
+      [
+        "1",
+        "1",
+        "NASAL_ADC"
+      ],
+      [
+        "2",
+        "2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "J1",
+    "value": "Keyed 3-pin module connector",
+    "x": 470,
+    "y": 112,
+    "pins": [
+      [
+        "1",
+        "ID",
+        "MODULE_ID"
+      ],
+      [
+        "2",
+        "GND",
+        "GND"
+      ],
+      [
+        "3",
+        "NTC",
+        "NASAL_ADC"
+      ]
+    ]
+  },
+  {
+    "ref": "RM1",
+    "value": "Module ID: Basic 1k / Peak 4.7k / Nasal 10k",
+    "x": 470,
+    "y": 158,
+    "pins": [
+      [
+        "1",
+        "ID",
+        "MODULE_ID"
+      ],
+      [
+        "2",
+        "GND",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "TH1",
+    "value": "BR11KA104N 100k / Nasal only",
+    "x": 470,
+    "y": 198,
+    "pins": [
+      [
+        "1",
+        "NTC",
+        "NASAL_ADC"
+      ],
+      [
+        "2",
+        "GND",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "SW2",
+    "value": "Momentary NO / pullup in ESP32",
+    "x": 60,
+    "y": 225,
+    "pins": [
+      [
+        "1",
+        "1",
+        "BTN_NEXT"
+      ],
+      [
+        "2",
+        "2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "SW3",
+    "value": "Momentary NO / pullup in ESP32",
+    "x": 200,
+    "y": 225,
+    "pins": [
+      [
+        "1",
+        "1",
+        "BTN_OK"
+      ],
+      [
+        "2",
+        "2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "SW4",
+    "value": "Momentary NO / pullup in ESP32",
+    "x": 340,
+    "y": 225,
+    "pins": [
+      [
+        "1",
+        "1",
+        "BTN_BACK"
+      ],
+      [
+        "2",
+        "2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "R7",
+    "value": "1k",
+    "x": 60,
+    "y": 270,
+    "pins": [
+      [
+        "1",
+        "A/1",
+        "LED_OK_CTRL"
+      ],
+      [
+        "2",
+        "K/2",
+        "LED_OK_A"
+      ]
+    ]
+  },
+  {
+    "ref": "D1",
+    "value": "Green LED 3mm",
+    "x": 60,
+    "y": 310,
+    "pins": [
+      [
+        "1",
+        "A/1",
+        "LED_OK_A"
+      ],
+      [
+        "2",
+        "K/2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "R8",
+    "value": "1k",
+    "x": 200,
+    "y": 270,
+    "pins": [
+      [
+        "1",
+        "A/1",
+        "LED_ERR_CTRL"
+      ],
+      [
+        "2",
+        "K/2",
+        "LED_ERR_A"
+      ]
+    ]
+  },
+  {
+    "ref": "D2",
+    "value": "Red LED 3mm",
+    "x": 200,
+    "y": 310,
+    "pins": [
+      [
+        "1",
+        "A/1",
+        "LED_ERR_A"
+      ],
+      [
+        "2",
+        "K/2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "R9",
+    "value": "2.2k",
+    "x": 335,
+    "y": 270,
+    "pins": [
+      [
+        "1",
+        "A/1",
+        "BUZZ_CTRL"
+      ],
+      [
+        "2",
+        "K/2",
+        "Q_BASE"
+      ]
+    ]
+  },
+  {
+    "ref": "R10",
+    "value": "100k",
+    "x": 335,
+    "y": 310,
+    "pins": [
+      [
+        "1",
+        "A/1",
+        "Q_BASE"
+      ],
+      [
+        "2",
+        "K/2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "Q1",
+    "value": "2N3904 TO92: verify E-B-C vendor",
+    "x": 470,
+    "y": 265,
+    "pins": [
+      [
+        "1",
+        "E",
+        "GND"
+      ],
+      [
+        "2",
+        "B",
+        "Q_BASE"
+      ],
+      [
+        "3",
+        "C",
+        "BUZZ_LOW"
+      ]
+    ]
+  },
+  {
+    "ref": "BZ1",
+    "value": "Active buzzer 5V <=20mA",
+    "x": 470,
+    "y": 310,
+    "pins": [
+      [
+        "1",
+        "+",
+        "DEV_5V"
+      ],
+      [
+        "2",
+        "-",
+        "BUZZ_LOW"
+      ]
+    ]
+  },
+  {
+    "ref": "D3",
+    "value": "1N4148 flyback",
+    "x": 470,
+    "y": 350,
+    "pins": [
+      [
+        "1",
+        "A",
+        "BUZZ_LOW"
+      ],
+      [
+        "2",
+        "K",
+        "DEV_5V"
+      ]
+    ]
+  },
+  {
+    "ref": "BT1",
+    "value": "NCR18650B 1S / factory tabs",
+    "x": 60,
+    "y": 50,
+    "pins": [
+      [
+        "+",
+        "+",
+        "CELL_PLUS"
+      ],
+      [
+        "-",
+        "-",
+        "CELL_MINUS"
+      ]
+    ]
+  },
+  {
+    "ref": "F1",
+    "value": "PTC 1A hold / >=6V",
+    "x": 60,
+    "y": 100,
+    "pins": [
+      [
+        "1",
+        "1",
+        "CELL_PLUS"
+      ],
+      [
+        "2",
+        "2",
+        "BATT_FUSED"
+      ]
+    ]
+  },
+  {
+    "ref": "U4",
+    "value": "TP4056 + DW01A + FS8205A module",
+    "x": 200,
+    "y": 65,
+    "pins": [
+      [
+        "IN+",
+        "5V_IN",
+        "CHARGE_5V"
+      ],
+      [
+        "IN-",
+        "INPUT_GND",
+        "GND"
+      ],
+      [
+        "B+",
+        "CELL+",
+        "BATT_FUSED"
+      ],
+      [
+        "B-",
+        "CELL-",
+        "CELL_MINUS"
+      ],
+      [
+        "OUT+",
+        "PROTECTED+",
+        "PACK_PLUS"
+      ],
+      [
+        "OUT-",
+        "PROTECTED-",
+        "GND"
+      ],
+      [
+        "PROG",
+        "TP4056 pin2",
+        "PROG_INTERNAL"
+      ]
+    ]
+  },
+  {
+    "ref": "J2",
+    "value": "USB-C 5V breakout: sink CC resistors fitted",
+    "x": 60,
+    "y": 170,
+    "pins": [
+      [
+        "VBUS",
+        "5V",
+        "USB_CHG_5V"
+      ],
+      [
+        "GND",
+        "GND",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "SW1",
+    "value": "DPDT ON-ON / CHARGE-RUN (linked poles)",
+    "x": 200,
+    "y": 180,
+    "pins": [
+      [
+        "1",
+        "A-common",
+        "USB_CHG_5V"
+      ],
+      [
+        "2",
+        "A-CHARGE",
+        "CHARGE_5V"
+      ],
+      [
+        "3",
+        "A-RUN",
+        null
+      ],
+      [
+        "4",
+        "B-common",
+        "PACK_PLUS"
+      ],
+      [
+        "5",
+        "B-CHARGE",
+        null
+      ],
+      [
+        "6",
+        "B-RUN",
+        "BOOST_IN"
+      ]
+    ]
+  },
+  {
+    "ref": "U5",
+    "value": "MT3608 module / set 5.00V BEFORE connecting",
+    "x": 350,
+    "y": 65,
+    "pins": [
+      [
+        "IN+",
+        "IN+",
+        "BOOST_IN"
+      ],
+      [
+        "IN-",
+        "IN-",
+        "GND"
+      ],
+      [
+        "OUT+",
+        "OUT+",
+        "BOOST_5V"
+      ],
+      [
+        "OUT-",
+        "OUT-",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "JP1",
+    "value": "REMOVE for USB flashing / power interlock",
+    "x": 350,
+    "y": 145,
+    "pins": [
+      [
+        "1",
+        "BOOST",
+        "BOOST_5V"
+      ],
+      [
+        "2",
+        "DEVKIT",
+        "DEV_5V"
+      ]
+    ]
+  },
+  {
+    "ref": "C3",
+    "value": "220uF 10V low ESR",
+    "x": 470,
+    "y": 65,
+    "pins": [
+      [
+        "1",
+        "+",
+        "DEV_5V"
+      ],
+      [
+        "2",
+        "-",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "C4",
+    "value": "100nF X7R",
+    "x": 470,
+    "y": 110,
+    "pins": [
+      [
+        "1",
+        "1",
+        "DEV_5V"
+      ],
+      [
+        "2",
+        "2",
+        "GND"
+      ]
+    ]
+  },
+  {
+    "ref": "RPROG",
+    "value": "4.7k / replace TP4056 onboard RPROG",
+    "x": 350,
+    "y": 215,
+    "pins": [
+      [
+        "1",
+        "TP4056 pin2 PROG",
+        "PROG_INTERNAL"
+      ],
+      [
+        "2",
+        "TP4056 pin3 GND",
+        "GND"
+      ]
+    ]
+  }
+]
