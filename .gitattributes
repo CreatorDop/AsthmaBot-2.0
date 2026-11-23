@@ -1,0 +1,14 @@
+* text=auto
+*.step binary
+*.stp binary
+*.stl binary
+*.dxf binary
+*.blend binary
+*.pdf binary
+*.pptx binary
+*.png binary
+*.mp4 binary
+*.bin binary
+cad/** linguist-generated=true
+presentation/preview/** linguist-generated=true
+hardware/*.net linguist-generated=true
